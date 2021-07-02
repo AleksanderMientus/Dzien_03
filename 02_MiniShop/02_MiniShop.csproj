@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2C369B04-7EC7-4016-BAED-369A977A8AC8}</ProjectGuid>
+    <ProjectGuid>{4C30EAEB-6E2B-4D9C-BDD5-57D61E1A072E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_OOP</RootNamespace>
-    <AssemblyName>01_OOP</AssemblyName>
+    <RootNamespace>_02_MiniShop</RootNamespace>
+    <AssemblyName>02_MiniShop</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,21 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Figury\Figura.cs" />
-    <Compile Include="Figury\IFigura.cs" />
-    <Compile Include="Figury\Kwadrat.cs" />
-    <Compile Include="Figury\Prostokat.cs" />
-    <Compile Include="Figury\Trojkat.cs" />
-    <Compile Include="KlasaAbstrakcyjna\AbstractProduct.cs" />
-    <Compile Include="KlasaAbstrakcyjna\Product.cs" />
-    <Compile Include="KlasaStatyczna\Utils.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Przeciazanie\Wektor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
