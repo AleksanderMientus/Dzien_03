@@ -45,5 +45,12 @@ namespace _02_MiniShop
             return active;
         }
 
+        // nadpisanie metody ToString dziedziczonej po object
+        public override string ToString()
+        {
+            return string.Format("{0} - {1} - {2}", id, name, price);
+        }
+
+
     }
 }

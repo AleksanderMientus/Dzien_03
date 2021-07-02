@@ -10,6 +10,12 @@ namespace _02_MiniShop
     {
         static void Main(string[] args)
         {
+            Product product1 = new Product(1, "Ryż", 2.99);
+            Console.WriteLine(product1);
+
+            Console.ReadKey();
+
         }
+
     }
 }
